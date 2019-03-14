@@ -66,4 +66,9 @@ export const MenuLink = styled.div`
   &:hover {
     color: ${theme.palette.link};
   }
+  ${props =>
+    props.hideDesktop &&
+    `@media (min-width: 1024px) {
+    display: none;
+  }`}
 `;

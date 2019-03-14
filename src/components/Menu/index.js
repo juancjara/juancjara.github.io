@@ -36,14 +36,7 @@ class Menu extends React.Component {
           >
             <MenuLink onClick={this.onClick('about')}>About</MenuLink>
             <MenuLink onClick={this.onClick('projects')}>Projects</MenuLink>
-            <MenuLink
-              className={css`
-                @media (min-width: 1024px) {
-                  display: none;
-                }
-              `}
-              onClick={this.onClick('contact')}
-            >
+            <MenuLink hideDesktop onClick={this.onClick('contact')}>
               Contact
             </MenuLink>
           </nav>
