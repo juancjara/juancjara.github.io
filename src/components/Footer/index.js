@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from 'emotion';
+import { css } from '@emotion/core';
 
 import { Container } from './styles';
 import SocialIcons from '../SocialIcons';

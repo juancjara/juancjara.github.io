@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-import { zIndex } from '../../utils/styles';
+import { zIndex, theme } from '../../utils/styles';
 
 export const Overlay = styled.div`
   position: fixed;
@@ -8,6 +8,8 @@ export const Overlay = styled.div`
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   transition: opacity 0.3s ease 0s;
+  opacity: ${props => (props.isOpen ? '1' : '0')};
+  z-index: ${props => (props.isOpen ? zIndex.MENU_OVERLAY : -1)};
 `;
 
 export const MenuIcon = styled.button`
@@ -20,7 +22,7 @@ export const MenuIcon = styled.button`
   z-index: ${zIndex.MENU_ICON};
   cursor: pointer;
   svg {
-    color: ${props => props.theme.palette.menu};
+    color: ${theme.palette.menu};
   }
 `;
 
@@ -37,7 +39,7 @@ export const CloseIcon = styled.button`
     color: white;
 
     &:hover {
-      color: ${props => props.theme.palette.link};
+      color: ${theme.palette.link};
     }
   }
 `;
@@ -51,9 +53,10 @@ export const MenuContainer = styled.div`
   z-index: ${zIndex.MENU};
   z-index: 1002;
   transition: all 0.5s ease 0s;
-  background: ${props => props.theme.palette.menu};
+  background: ${theme.palette.menu};
   color: white;
   padding: 2.5em 1.5em 0;
+  ${props => (props.isOpen ? '' : 'transform: translate3d(100%, 0px, 0px);')}
 `;
 
 export const MenuLink = styled.div`
@@ -61,6 +64,6 @@ export const MenuLink = styled.div`
   font-size: 20px;
   padding: 0.8em;
   &:hover {
-    color: ${props => props.theme.palette.link};
+    color: ${theme.palette.link};
   }
 `;

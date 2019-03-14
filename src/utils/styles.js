@@ -1,3 +1,12 @@
+export const theme = {
+  palette: {
+    link: '#49bf9d',
+    title: '#787878',
+    content: '#a2a2a2',
+    menu: '#373a47'
+  }
+};
+
 const properties = {
   m: 'margin',
   p: 'padding',

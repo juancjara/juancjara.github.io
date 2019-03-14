@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-import { space, width } from '../../utils/styles';
+import { space, width, theme } from '../../utils/styles';
 
 export const Box = styled.div`
   ${width} ${space};
@@ -22,7 +22,7 @@ export const Summary = styled.p`
   line-height: 1.2em;
   text-align: justify;
   margin-top: 0.5em;
-  color: ${props => props.theme.palette.content};
+  color: ${theme.palette.content};
   & a {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
@@ -64,6 +64,6 @@ export const Icon = styled.a`
     transition: fill 0.2s ease-in-out, border-color 0.2s ease-in-out;
   }
   & svg:hover path {
-    fill: ${props => props.theme.palette.link};
+    fill: ${theme.palette.link};
   }
 `;

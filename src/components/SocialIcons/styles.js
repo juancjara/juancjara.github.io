@@ -1,12 +1,14 @@
 import styled from '@emotion/styled';
 
+import { theme } from '../../utils/styles';
+
 export const Icon = styled.li`
   margin-right: 1em;
   path {
     transition: fill 0.2s ease-in-out, border-color 0.2s ease-in-out;
   }
   & svg:hover path {
-    fill: ${props => props.theme.palette.link};
+    fill: ${theme.palette.link};
   }
 `;
 

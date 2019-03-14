@@ -1,12 +1,14 @@
 import styled from '@emotion/styled';
 
+import { theme } from '../../utils/styles';
+
 export const Section = styled.section`
   width: 100%;
   height: 100%;
 `;
 
 export const Title = styled.h2`
-  color: ${props => props.theme.palette.title};
+  color: ${theme.palette.title};
   font-weight: 400;
   font-size: 1.35em;
   line-height: 1.5em;
@@ -22,13 +24,13 @@ export const Title = styled.h2`
 export const Summary = styled.p`
   font-size: 1em;
   line-height: 1.85em;
-  color: ${props => props.theme.palette.content};
+  color: ${theme.palette.content};
   text-align: justify;
   margin-bottom: 2em;
   & a {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
-    color: ${props => props.theme.palette.link};
+    color: ${theme.palette.link};
     text-decoration: none;
   }
   @media (min-width: 1800px) {
@@ -43,7 +45,7 @@ export const ResumeLink = styled.a`
   background-color: transparent;
   border-radius: 0.35em;
   border: solid 3px #efefef;
-  color: ${props => props.theme.palette.title};
+  color: ${theme.palette.title};
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -55,8 +57,8 @@ export const ResumeLink = styled.a`
   text-align: center;
   width: 100%;
   &:hover {
-    border-color: ${props => props.theme.palette.link};
-    color: ${props => props.theme.palette.link} !important;
+    border-color: ${theme.palette.link};
+    color: ${theme.palette.link} !important;
   }
   @media (min-width: 480px) {
     width: auto;

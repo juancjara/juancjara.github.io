@@ -1,8 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { injectGlobal } from 'emotion';
+import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { ThemeProvider } from 'emotion-theming';
 import { StaticQuery, graphql } from 'gatsby';
 import Menu from '../Menu';
 
@@ -11,16 +10,7 @@ import Header from '../Header';
 
 import normalize from '../../normalize';
 
-const theme = {
-  palette: {
-    link: '#49bf9d',
-    title: '#787878',
-    content: '#a2a2a2',
-    menu: '#373a47'
-  }
-};
-
-injectGlobal`
+const globalStyles = css`
   ${normalize}
   * {
     margin: 0;
@@ -28,7 +18,7 @@ injectGlobal`
     box-sizing: border-box;
   }
   html {
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-weight: 400;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -46,15 +36,14 @@ const TemplateWrapper = ({ children }) => (
     query={query}
     render={({ site, dataYaml, headerImage, bgImage, ...rest }) => (
       <>
-        <ThemeProvider theme={theme}>
-          <Container>
-            <Menu />
-            <Helmet title={site.siteMetadata.title} />
-            <Header {...dataYaml} avatar={headerImage} bgImage={bgImage} />
-            {children}
-            <Footer links={dataYaml.socialLinks} />
-          </Container>
-        </ThemeProvider>
+        <Container>
+          <Menu />
+          <Helmet title={site.siteMetadata.title} />
+          <Global styles={globalStyles} />
+          <Header {...dataYaml} avatar={headerImage} bgImage={bgImage} />
+          {children}
+          <Footer links={dataYaml.socialLinks} />
+        </Container>
       </>
     )}
   />
