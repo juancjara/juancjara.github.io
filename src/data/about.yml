@@ -1,0 +1,26 @@
+name: I am Juan Carlos,
+description: ' <a href="https://www.recurse.com/" target="_blank" rel="noopener noreferrer">recurser </a> and fullstack software engineer who loves learning about new technologies and taking on new challengues.'
+socialLinks:
+  - icon: twitter
+    url: https://twitter.com/yunza504
+    samePage: false
+  - icon: linkedIn
+    url: https://pe.linkedin.com/in/juancarlosjara
+    samePage: false
+  - icon: github
+    url: https://github.com/juancjara
+    samePage: false
+  - icon: email
+    url: mailto:juanc.jara@pucp.pe?Subject=Hello
+    samePage: true
+resume: http
+summary: >-
+  Hi, I'm Juan Carlos Jara. I'm a 28-year-old developer living in Peru. I'm currently  slowly reading
+  <a href="http://www.amazon.es/Clean-code-Handbook-Software-Craftsmanship/dp/0132350882" target="_blank" rel="noopener noreferrer">Clean Code</a>.
+  I've being working building apps using React/Redux/NodeJS and others JS libraries for about 4 years. Before that, I mostly developed web apps(MVC4, C#, JavaScript) from design to deployment, but I also did business process
+  modeling and optimization of internal company processes using Engage/Bizagi BPM. <br/>
+  I mostly develop my personal projects using JavaScript in all the stack,
+  ReactJS/NodeJS and MongoDB. I've done some small projects using Clojure/Clojurescript I would like to keep learning about it because
+  I feel that functional programming has a lot to bring to the table and will make me think different about programming.<br/>
+  Besides programming, I enjoy programming ☺, listening to music, traveling, eating delicious food, watching movies and TV series, playing/watching(twitch) dota and hearthstone.<br/>
+  I'm looking for a job where I can keep improving my coding skills using pair programming and code review.
