@@ -1,84 +1,75 @@
-- 
-  id: REACTNATIVE
+- id: REACTNATIVE
   label: ReactNative
   color: '#F44336'
--
-  id: VUEJS
+- id: VUEJS
   label: VueJS
   color: '#E91E63'
--
-  id: FLUX
+- id: FLUX
   label: Flux
   color: '#9C27B0'
--
-  id: IMMUTABLEJS
+- id: IMMUTABLEJS
   label: ImmutableJS
   color: '#673AB7'
--
-  id: WEBRTC
+- id: WEBRTC
   label: WebRTC
   color: '#3F51B5'
--
-  id: NODEJS
+- id: NODEJS
   label: NodeJS
   color: '#2196F3'
--
-  id: REACTJS
+- id: REACTJS
   label: ReactJS
   color: '#03A9F4'
--
-  id: JS
+- id: JS
   label: JS
   color: '#00BCD4'
--
-  id: MONGODB
+- id: MONGODB
   label: MongoDB
   color: '#009688'
--
-  id: COFFEESCRIPT
+- id: COFFEESCRIPT
   label: CoffeeScript
   color: '#4CAF50'
--
-  id: MOCHA
+- id: MOCHA
   label: Mocha
   color: '#8BC34A'
--
-  id: OM
+- id: OM
   label: Om
   color: '#CDDC39'
--
-  id: CLOJURESCRIPT
+- id: CLOJURESCRIPT
   label: Clojurescript
   color: '#FFEB3B'
--
-  id: CLOJURE
+- id: CLOJURE
   label: Clojure
   color: '#FFC107'
--
-  id: C
+- id: C
   label: C
   color: '#FF9800'
--
-  id: LESS
+- id: LESS
   label: Less
   color: '#FF5722'
--
-  id: SOCKETIO
+- id: SOCKETIO
   label: SocketIO
   color: '#795548'
--
-  id: CANVAS
+- id: CANVAS
   label: Canvas
   color: '#607D8B'
--
-  id: JAVA
+- id: JAVA
   label: Java
   color: '#9E9E9E'
--
-  id: STYLUS
+- id: STYLUS
   label: Stylus
   color: '#616161'
--
-  id: GATSBY
+- id: GATSBY
   label: Gatsby
   color: '#455A64'
+- id: NEXTJS
+  label: NextJS
+  color: '#9575CD'
+- id: FFMPEG
+  label: FFMPEG
+  color: '#827717'
+- id: GRAPHQL
+  label: GraphQL
+  color: '#000000'
+- id: ElASTICSEARCH
+  label: ElasticSearch
+  color: '#00BFA5'

@@ -1,4 +1,16 @@
-- name: Portofolio v2
+- name: Music drive app
+  tags: [REACTJS, NEXTJS, NODEJS, GRAPHQL, ElASTICSEARCH]
+  source: https://github.com/jpalomino1991/music-google-drive
+  summary: >-
+    UNDERCONSTRUCTION - Music player for google drive music, allow filters by metadata
+
+- name: Twitch clips to youtube
+  tags: [REACTJS, NEXTJS, NODEJS, FFMPEG]
+  summary: >-
+    Pull top twich clips from youtube, let user chooose some, automatically 
+    create video compilation and upload it to youtube
+
+- name: Portfolio v2
   tags: [REACTJS, GATSBY]
   summary: >-
     Rebuild my porfolio using gatsby
@@ -25,136 +37,115 @@
   summary: >-
     Chrome Extension which attachs to twitch tv chat and stores stores
     your spams for later use.
--
-  name: Movie Rate App
+- name: Movie Rate App
   tags: [REACTNATIVE, FLUX, IMMUTABLEJS]
   source: https://github.com/juancjara/movie-rate-react-native
   summary: >-
     React native version of an movie festival Android app that rate movies
     watched. (React Native)
--
-  name: Video chat app WebRTC
+- name: Video chat app WebRTC
   source: https://github.com/juancjara/web-rtc
   tags: [WEBRTC, NODEJS]
   summary: >-
     Simple WebRTC video chat application using Web sockets or Firebase as Signalling servers.
--
-  name: Bettson Notifier Chrome Ext
+- name: Bettson Notifier Chrome Ext
   tags: [REACTJS]
   source: https://github.com/juancjara/bettson-notifier-chrome-extension
   summary: >-
     Extension which creates notifications when games results meet the requirements
     to place a bet.
--
-  name: Reminder Chrome Ext
+- name: Reminder Chrome Ext
   tags: [JS]
   source: https://github.com/juancjara/chrome-extension-starter
   summary: >-
     Chrome extension where you can type on an Omnibox "remind 10 to do something" so in 10 minutes
     you would get a reminder.
--
-  name: Cinema Twitter bot
+- name: Cinema Twitter bot
   tags: [NODEJS, MONGODB]
   source: https://github.com/juancjara/twitch-tv-keyboard-shortcuts
   summary: >-
     Twitter bot that listens for tweets which contain movie and cinema and retweet the schedule.
--
-  name: Dota practice
+- name: Dota practice
   tags: [COFFEESCRIPT, REACTJS, MOCHA]
   source: https://github.com/juancjara/dota-game
-  preview: http://104.131.28.224:7771/ 
+  preview: http://104.131.28.224:7771/
   summary: Web simulator of the MOBA Dota 2 to practice hero combinations.
--
-  name: Dynamic key shortcuts
+- name: Dynamic key shortcuts
   tags: [JS]
   source: https://github.com/juancjara/dynamic-key-shortcuts
   summary: >-
     Paste this script on your browser console and create custom shortcuts to any element on it.
--
-  name: Json to survey
+- name: Json to survey
   tags: [JS]
   source: https://github.com/juancjara/json-to-survey
   summary: Create a survey with question dependencies from a json schema.
--
-  name: Comment Box
+- name: Comment Box
   tags: [OM, CLOJURESCRIPT]
   source: https://github.com/juancjara/Comment-box-Om
   summary: A simple but realistic comments box based on ReactJS tutorial.
--
-  name: Url shortener
+- name: Url shortener
   tags: [CLOJURE, CLOJURESCRIPT]
   source: https://github.com/juancjara/url-shortener
   summary: Project created for interview prep day on Recurse Center.
--
-  name: TwitchTV shortcuts
+- name: TwitchTV shortcuts
   tags: [JS]
   source: https://github.com/juancjara/twitch-tv-keyboard-shortcuts
   preview: https://chrome.google.com/webstore/detail/twitch-keyboard-shortcuts/pfdnkciodgpiannbheoheddfdnkbboha?hl=es-419
   summary: >-
     Chrome extension to control TwitchTV pastbroadcast videos using keyboards shortcuts.
     Also, it saves the last state of the video to be resume next time you watch it.
--
-  name: Sharks with laser beams
+- name: Sharks with laser beams
   tags: [NODEJS]
   source: https://github.com/juancjara/sharks-with-laser-beams
   summary: >-
     A utility for arming (creating) many sharks (DigitalOcean Droplets) to attack (load test)
     targets (web applications).
--
-  name: 2048 game
+- name: 2048 game
   tags: [C]
   source: https://github.com/juancjara/2048-terminal
   summary: >-
     Simple terminal version of 2048 without pointers. Focus on writing readable and clean code.
--
-  name: Phonebook
+- name: Phonebook
   tags: [NODEJS, MOCHA]
   source: https://github.com/juancjara/phone-book
   summary: >-
     Project created for interview prep day on Recurse Center. Command line tool that manages phone
               books file to SCRUD contacts data.
--
-  name: No hay basico
+- name: No hay basico
   tags: [NODEJS, MONGODB, REACTJS]
   source: https://github.com/andreqi/nohaybasico
   preview: http://104.131.28.224:4321/
   summary: >-
     Web Application which displays information about restaurants around my university such as
     location, daily menu, ect.
--
-  name: Me voy por 20
+- name: Me voy por 20
   tags: [NODEJS, MONGODB, REACTJS]
   source: https://github.com/juancjara/Grades-project
   preview: http://104.131.28.224:8765
   summary: >-
     Web Application which helps students of my university to simulate and find the average
     grade of a course based on its formula.
--
-  name: Handle budget FxOS
+- name: Handle budget FxOS
   tags: [JS, LESS]
   source: https://github.com/juancjara/money-app-firefox-os
   preview: https://marketplace.firefox.com/app/budget/
   summary: Firefox OS app to handle easily handle your budget.
--
-  name: My hangout
+- name: My hangout
   tags: [NODEJS, REACTJS, MONGODB, SOCKETIO]
   source: https://github.com/juancjara/my-hangout
   preview: http://104.131.28.224:8001/
   summary: Simple version of gmail chat.
--
-  name: Guitar Hero FxOS
+- name: Guitar Hero FxOS
   tags: [JS, CANVAS]
   source: https://github.com/juancjara/guitar-hero-firefox-os
   preview: https://marketplace.firefox.com/app/guitar-heroes-2/
   summary: Guitar hero game version for firefox OS phone.
--
-  name: Corredor Azul
+- name: Corredor Azul
   tags: [JAVA]
   preview: https://play.google.com/store/apps/details?id=com.tryhard.mvp.app&hl=es_419
   source: https://github.com/juancjara/Mvp
   summary: Android app which finds what bus you should take to travel betweentwo bus stops.
--
-  name: LMGTFY  
+- name: LMGTFY
   tags: [JS, STYLUS]
   preview: https://chrome.google.com/webstore/detail/deja-que-busque-eso-en-go/kaamhgpodjkbdapnammkdnojlofcgfhe?utm_source=chrome-ntp-icon&authuser=1
   summary: Chrome extension to create a query and place it in the copy buffer basedon Let me google that for you webpage.
