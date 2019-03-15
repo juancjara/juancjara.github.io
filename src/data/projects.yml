@@ -5,7 +5,7 @@
     UNDERCONSTRUCTION - Music player for google drive music. Keep folder structure and filter song using artis, name and file metadata.
 
 - name: Twitch clips to youtube
-  tags: [REACTJS, NEXTJS, NODEJS, FFMPEG]
+  tags: [REACTJS, NEXTJS, NODEJS, FFMPEG, MONGODB]
   source: https://github.com/juancjara/twitch-clips-to-youtube
   summary: >-
     Pull top twich clips from youtube, let user chooose some, automatically 
