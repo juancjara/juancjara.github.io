@@ -2,10 +2,11 @@
   tags: [REACTJS, NEXTJS, NODEJS, GRAPHQL, ElASTICSEARCH]
   source: https://github.com/jpalomino1991/music-google-drive
   summary: >-
-    UNDERCONSTRUCTION - Music player for google drive music, allow filters by metadata
+    UNDERCONSTRUCTION - Music player for google drive music. Keep folder structure and filter song using artis, name and file metadata.
 
 - name: Twitch clips to youtube
   tags: [REACTJS, NEXTJS, NODEJS, FFMPEG]
+  source: https://github.com/juancjara/twitch-clips-to-youtube
   summary: >-
     Pull top twich clips from youtube, let user chooose some, automatically 
     create video compilation and upload it to youtube
