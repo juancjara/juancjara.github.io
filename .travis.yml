@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - 'stable'
+notifications:
+  email:
+    recipients:
+      - juanc.jara@pucp.pe
+    on_success: always
+    on_failure: always
+cache:
+  directories:
+    - node_modules
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: public
+  keep-history: true
+  target-branch: master
+  on:
+    branch: deployment
+before_script:
+  - 'npm i -g gatsby'
+  - 'npm i'
+after_success:
+  - 'npm run deploy'
