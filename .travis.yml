@@ -22,8 +22,5 @@ deploy:
   target-branch: master
   on:
     branch: production
-before_script:
-  - 'npm i -g gatsby'
-  - 'npm i'
 after_success:
   - 'npm run deploy'
