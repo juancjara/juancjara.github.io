@@ -10,6 +10,9 @@ notifications:
 cache:
   directories:
     - node_modules
+branches:
+  only:
+    - deployment
 deploy:
   provider: pages
   skip-cleanup: true
