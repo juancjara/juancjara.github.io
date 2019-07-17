@@ -1,7 +1,9 @@
 - name: Latest ethereum blocks
   tags: [REACTJS, ETHEREUM]
   source: https://github.com/juancjara/ethereum-blocks
-  summary: >- Display latest 10 blocks and transactions from ethereum network
+  preview: https://ethereum-blocks-hmzoukfqrw.now.sh/8169609
+  summary: >- 
+    Display latest 10 blocks and transactions from ethereum network
 
 - name: Music drive app
   tags: [REACTJS, NEXTJS, NODEJS, GRAPHQL, ElASTICSEARCH]
