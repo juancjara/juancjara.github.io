@@ -71,7 +71,7 @@ export const Description = styled.h1`
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
-  color: #ffffffab;
+  color: white;
   max-width: 360px;
   @media (min-width: 768px) {
     font-size: 1.75em;
