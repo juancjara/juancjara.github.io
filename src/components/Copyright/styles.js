@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
+  color: white;
   margin-bottom: 1em;
   & a {
     text-decoration: none;
