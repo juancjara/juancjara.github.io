@@ -73,3 +73,6 @@
 - id: ElASTICSEARCH
   label: ElasticSearch
   color: '#00BFA5'
+- id: ETHEREUM
+  label: Ethereum
+  color: '#9E9E9E'
